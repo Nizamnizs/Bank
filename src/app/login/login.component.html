@@ -1,0 +1,21 @@
+<h1 class="fs-3 mt-3 ms-3">{{data}}</h1>
+<div class="container mb-3">
+	<p class="title">Login</p>
+	<form class="form">
+		<div class="input-group">
+			<label for="username">Account Number</label>
+			<input type="text" name="acno" id="acno" [placeholder]="pdata">
+		</div>
+		<div class="input-group">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="Enter Password">
+			<div class="forgot">
+				<a rel="noopener noreferrer" href="#">Forgot Password ?</a>
+			</div>
+		</div>
+		<button (click)="login()" type="submit" class="sign">Login</button>
+	</form>
+	<p class="signup">Don't have an account?
+		<a rel="noopener noreferrer" href="#" class="">Sign up</a>
+	</p>
+</div>

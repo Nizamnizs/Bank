@@ -1,0 +1,88 @@
+
+
+
+
+
+    <div class="container">
+        <h2>Welcome to SBI</h2>
+        <div class="list-group">
+          <div> 
+            <button type="button" class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">View Profile</button> 
+        </div> 
+           <div> 
+            <button class="btn btn-primary mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Balance Enquiry</button>
+        </div> 
+          <div>
+             <button class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal1">Money Transfer</button>
+            </div> 
+          <div> 
+            <button class="nav-button">Account Statement</button>
+        </div> 
+           <div> 
+            <button class="nav-button">Log Out</button>
+        </div> 
+        </div>
+    </div>
+  
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Your Profile</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Hi User
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title" id="offcanvasExampleLabel">Balance Details</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+      <h3>Hi "Username"</h3><p>Cash onnum illa...valla panikum poda</p>
+      <h4 style="color: rgb(18, 80, 162);" class="mt-4">Balance 0000</h4>
+      </div>
+    
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel1">Money Transfer</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <input type="text" id="acc" class="form-control mt-3" name="acc1" placeholder="Receipient Account Number">
+            <input type="text" id="amt1"class="form-control mt-3" name="amt2" placeholder="Amount To Transfer">
+            <input type="text" id="pp1"class="form-control mt-3" name="pp2" placeholder="Password">
+        <div class="mt-5">
+<button type="button" class="btn btn-outline-success">Transfer</button>
+        </div>
+          </form>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
